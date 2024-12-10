@@ -49,6 +49,3 @@ Một documents sẽ chứa data và metadata. Metadata fields là các trườn
 Mỗi index có một mapping hoặc schema về cách mà cách field trong document được lưu trữ. Mapping xác định kiểu dữ liệu cho mỗi field, cách mà các field được đánh index và nó nên được lưu trữ như thế nào. Khi thêm document vào ES, bạn có 2 cách để tùy chọn mapping:
 - Dynamic mapping: Để Elasticsearch tự động phát hiện các loại dữ liệu và tạo ánh xạ cho bạn. Ánh xạ động giúp bạn bắt đầu nhanh chóng, nhưng có thể mang lại kết quả không tối ưu cho trường hợp sử dụng cụ thể của bạn do suy luận loại trường tự động.
 - Explicit mapping: Xác định ánh xạ trước bằng cách chỉ định kiểu dữ liệu cho từng field. Được đề xuất cho production vì bạn có toàn quyền kiểm soát cách lập chỉ mục dữ liệu để phù hợp với trường hợp sử dụng cụ thể của mình.
-
-### 2. Thêm dữ liệu vào Elasticsearch
-Có nhiều cách để nhập 
